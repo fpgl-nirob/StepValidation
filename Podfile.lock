@@ -1,0 +1,34 @@
+PODS:
+  - Alamofire (4.9.1)
+  - MBProgressHUD (1.2.0)
+  - SQLite.swift (0.12.2):
+    - SQLite.swift/standard (= 0.12.2)
+  - SQLite.swift/standard (0.12.2)
+  - SwiftyJSON (5.0.0)
+  - Toaster (2.2.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.9.1)
+  - MBProgressHUD
+  - SQLite.swift
+  - SwiftyJSON
+  - Toaster
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - MBProgressHUD
+    - SQLite.swift
+    - SwiftyJSON
+    - Toaster
+
+SPEC CHECKSUMS:
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  SQLite.swift: d2b4642190917051ce6bd1d49aab565fe794eea3
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  Toaster: c1a81b376edcc2470157b4d1ee1e9341d3b96455
+
+PODFILE CHECKSUM: 41f5ea256eacb7483a8676850212146f1b799f7e
+
+COCOAPODS: 1.8.4

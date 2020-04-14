@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="ViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="BYZ-38-t0r" customClass="ViewController" customModule="SiliconOrcInterview" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="header_bg" translatesAutoresizingMaskIntoConstraints="NO" id="lVH-Bd-GAJ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aaj-dk-GBb" customClass="NHNavigationBar" customModule="SiliconOrcInterview" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="aaj-dk-GBb" secondAttribute="height" multiplier="375:44" id="Rfv-H4-J8O"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="lVH-Bd-GAJ" secondAttribute="trailing" id="SzX-dN-1du"/>
+                            <constraint firstItem="aaj-dk-GBb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Yi1-Dv-izx"/>
+                            <constraint firstItem="lVH-Bd-GAJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="hOX-4l-1V4"/>
+                            <constraint firstItem="lVH-Bd-GAJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="jFd-7I-Cxf"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aaj-dk-GBb" secondAttribute="trailing" id="kVy-hg-g08"/>
+                            <constraint firstItem="lVH-Bd-GAJ" firstAttribute="bottom" secondItem="aaj-dk-GBb" secondAttribute="bottom" id="rve-iy-igs"/>
+                            <constraint firstItem="aaj-dk-GBb" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="z6v-WL-hrT"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="nhNavigationBar" destination="aaj-dk-GBb" id="dh5-Xj-aj2"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="132" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="header_bg" width="375" height="64"/>
+    </resources>
+</document>
